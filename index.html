@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Library</title>	
+	<script src="book.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="book.css">
+</head>
+<body>
+	<div class="container">
+		<table id="table" class="table table-bordered table-hover">
+			<tr>
+				<thead class="thead-dark">
+					<th>Number</th>
+					<th>Title</th>
+					<th>Author</th>
+					<th>Pages</th>
+					<th>Read</th>
+					<th>Delete</th>
+				</thead>
+			</tr>
+			<tbody></tbody>
+		</table>
+		
+		<div class="container-fluid">
+			<form class="form-inline" id="myForm">
+				<div class="form-group">
+						<input id="title" type="text" placeholder="Title">
+				</div>
+				<div class="form-group">
+						<input id="author" type="text" placeholder="Author">
+				</div>
+				<div class="form-group">
+						<input id="pages" type="text" placeholder="Pages">
+				</div>
+				<div class="form-check">
+						<input id="read" type="checkbox">
+						<label>Read?</label>
+				</div>
+				<button id="submit" class="btn btn-primary" type="submit">Add Book</button>
+			</form>
+		</div>
+
+	</div>
+
+	
+
+
+	
+	
+</body>
+</html>
